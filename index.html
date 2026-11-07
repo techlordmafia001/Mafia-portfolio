@@ -1,780 +1,434 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Abdulmaleek Ayomide - Educational Technology enthusiast, web developer and creative problem solver.">
+    <meta name="description" content="Abdulmaleek Ayomide's personal portfolio website. Educational Technology, Web Development and Graphic Design.">
 
-    <title>Abdulmaleek Ayomide | Portfolio</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Abdulmaleek Ayomide | Personal Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="site-bg"></div>
-
     <!-- NAVIGATION -->
-    <header class="header" id="top">
-        <nav class="nav container">
+    <header class="header">
+        <nav class="navbar container">
 
-            <a class="brand" href="#top">
-                <span class="brand-mark">A</span>
-                <span>Abdulmaleek<span class="brand-dot">.</span></span>
-            </a>
+            <a href="#home" class="logo">AA<span>.</span></a>
 
-            <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
-                <i data-lucide="menu"></i>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                ☰
             </button>
 
-            <div class="nav-links" id="navLinks">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#education">Education</a>
-                <a href="#contact" class="nav-cta">
-                    Let's talk <i data-lucide="arrow-up-right"></i>
-                </a>
-            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-contact">Contact Me</a></li>
+            </ul>
 
         </nav>
     </header>
 
 
-    <main>
+    <!-- HERO SECTION -->
+    <section class="hero section" id="home">
 
-        <!-- HERO SECTION -->
-        <section class="hero container">
+        <div class="container hero-content">
 
-            <div class="hero-copy reveal">
+            <div class="hero-text">
 
-                <div class="availability">
-                    <span class="pulse"></span>
-                    OPEN TO OPPORTUNITIES
-                </div>
-
-                <p class="eyebrow">HELLO, I'M</p>
+                <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
 
                 <h1>
-                    Abdulmaleek<br>
-                    <span>Ayomide.</span>
+                    Hi, I'm <span>Abdulmaleek Ayomide.</span>
                 </h1>
 
-                <h2>
-                    Educational Technology Enthusiast
-                    <span class="amp">&</span>
-                    <span id="rotatingRole">Web Developer</span>
-                </h2>
+                <h2>Educational Technologist & Web Developer</h2>
 
                 <p class="hero-description">
-                    I bring ideas to life through technology, thoughtful
-                    design and practical digital solutions. I enjoy
-                    building useful experiences and learning how
-                    technology can make work and learning better.
+                    I am passionate about technology, creativity and innovation.
+                    I enjoy developing digital solutions, creating designs and
+                    exploring how technology can improve teaching and learning.
                 </p>
 
-                <div class="hero-actions">
-
-                    <a href="#projects" class="button button-primary">
-                        Explore my work
-                        <i data-lucide="arrow-up-right"></i>
-                    </a>
-
-                    <a href="#contact" class="button button-secondary">
-                        Get in touch
-                        <i data-lucide="mail"></i>
-                    </a>
-
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
                 </div>
 
-                <div class="hero-socials">
-
-                    <a href="#" aria-label="LinkedIn">
-                        <i data-lucide="linkedin"></i>
+                <div class="hero-email">
+                    <span>Email:</span>
+                    <a href="mailto:techmafia392@gmail.com">
+                        techmafia392@gmail.com
                     </a>
-
-                    <a href="#" aria-label="GitHub">
-                        <i data-lucide="github"></i>
-                    </a>
-
-                    <a href="mailto:your.email@example.com" aria-label="Email">
-                        <i data-lucide="mail"></i>
-                    </a>
-
                 </div>
 
             </div>
 
-
-            <!-- HERO DESIGN -->
-            <div class="hero-art reveal">
-
-                <div class="orbit orbit-one"></div>
-                <div class="orbit orbit-two"></div>
-
-                <div class="portrait-card">
-
-                    <div class="portrait-top">
-                        <span>PORTFOLIO / 2026</span>
-                        <i data-lucide="sparkles"></i>
-                    </div>
-
-                    <div class="avatar-placeholder">
-                        <span>AA</span>
-
-                        <div class="avatar-caption">
-                            CREATIVE THINKER<br>
-                            TECH ENTHUSIAST
-                        </div>
-                    </div>
-
-                    <div class="portrait-bottom">
-                        <span>ILORIN, NIGERIA</span>
-                        <span class="card-index">01 — 04</span>
-                    </div>
-
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-initials">AA</div>
+                    <h3>Abdulmaleek Ayomide</h3>
+                    <p>Technology | Creativity | Innovation</p>
                 </div>
-
-                <div class="floating-tag tag-code">
-                    <i data-lucide="code-2"></i>
-                    Web Development
-                </div>
-
-                <div class="floating-tag tag-idea">
-                    <i data-lucide="lightbulb"></i>
-                    Creative Ideas
-                </div>
-
             </div>
 
-            <a href="#about" class="scroll-hint">
-                <span></span>
-                SCROLL TO EXPLORE
-            </a>
+        </div>
 
-        </section>
+    </section>
 
 
-        <!-- ABOUT SECTION -->
-        <section class="section container" id="about">
+    <!-- ABOUT SECTION -->
+    <section class="section about" id="about">
 
-            <div class="section-heading reveal">
-                <p class="eyebrow">01 / ABOUT ME</p>
+        <div class="container">
 
-                <h2>
-                    Curiosity meets<br>
-                    <span class="gradient-text">purposeful technology.</span>
-                </h2>
+            <div class="section-heading">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2>About <span>Me</span></h2>
             </div>
 
-            <div class="about-grid">
+            <div class="about-content">
 
-                <div class="about-main reveal">
+                <div class="about-text">
+                    <h3>A passionate learner and technology enthusiast.</h3>
 
-                    <p class="lead">
-                        I'm Abdulmaleek Ayomide, an Educational Technology
-                        graduate with a growing focus on web development,
-                        digital creativity and technology-driven problem solving.
+                    <p>
+                        My name is Abdulmaleek Ayomide. I studied Educational
+                        Technology at Al-Hikmah University, Ilorin, Nigeria.
+                        My academic background has strengthened my interest
+                        in the application of technology to education.
                     </p>
 
                     <p>
-                        I am interested in how digital tools can improve
-                        the way people learn, communicate and work.
-                        I enjoy exploring new technologies, developing
-                        my skills and turning ideas into practical projects.
+                        I have an interest in web development, graphic design,
+                        digital tools and innovative learning solutions.
+                        I enjoy learning new skills, solving problems and
+                        developing creative ideas into practical projects.
                     </p>
 
                     <p>
-                        This portfolio is a collection of my learning
-                        journey, capabilities and selected work.
-                        I'm always open to meaningful collaborations,
-                        learning opportunities and projects.
+                        My goal is to continue improving my technical and
+                        creative abilities while contributing to solutions
+                        that make learning and communication more effective.
                     </p>
 
-                    <a href="#contact" class="text-link">
-                        Let's connect
-                        <i data-lucide="arrow-up-right"></i>
-                    </a>
-
                 </div>
 
+                <div class="about-details">
 
-                <div class="about-stats reveal">
-
-                    <div class="stat-card">
-                        <span class="stat-number">01</span>
-                        <span class="stat-label">Curious mindset</span>
-                        <p>Always learning and improving.</p>
+                    <div class="detail-item">
+                        <span>Full Name</span>
+                        <strong>Abdulmaleek Ayomide</strong>
                     </div>
 
-                    <div class="stat-card">
-                        <span class="stat-number">02</span>
-                        <span class="stat-label">Digital creativity</span>
-                        <p>Ideas shaped into useful experiences.</p>
+                    <div class="detail-item">
+                        <span>Education</span>
+                        <strong>Educational Technology</strong>
                     </div>
 
-                    <div class="stat-card">
-                        <span class="stat-number">03</span>
-                        <span class="stat-label">Practical thinking</span>
-                        <p>Focused on solutions that matter.</p>
+                    <div class="detail-item">
+                        <span>Institution</span>
+                        <strong>Al-Hikmah University</strong>
+                    </div>
+
+                    <div class="detail-item">
+                        <span>Location</span>
+                        <strong>Ilorin, Kwara State, Nigeria</strong>
+                    </div>
+
+                    <div class="detail-item">
+                        <span>Email Address</span>
+                        <strong>techmafia392@gmail.com</strong>
                     </div>
 
                 </div>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- SKILLS SECTION -->
-        <section class="section section-alt" id="skills">
+    <!-- SKILLS SECTION -->
+    <section class="section skills" id="skills">
 
-            <div class="container">
+        <div class="container">
 
-                <div class="section-heading reveal">
-                    <p class="eyebrow">02 / WHAT I DO</p>
+            <div class="section-heading">
+                <p class="eyebrow">WHAT I CAN DO</p>
+                <h2>My <span>Skills</span></h2>
+                <p>Some of the areas I have explored and continue to develop.</p>
+            </div>
 
-                    <h2>
-                        Skills & <span class="gradient-text">expertise.</span>
-                    </h2>
+            <div class="skills-grid">
 
-                    <p class="section-intro">
-                        A growing toolkit built through academic work,
-                        practice and personal projects.
+                <div class="skill-card">
+                    <div class="skill-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>
+                        Creating and designing websites using HTML, CSS
+                        and JavaScript.
                     </p>
                 </div>
 
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>Graphic Design</h3>
+                    <p>
+                        Designing creative posters and visual materials
+                        for communication and promotion.
+                    </p>
+                </div>
 
-                <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">📚</div>
+                    <h3>Educational Technology</h3>
+                    <p>
+                        Exploring the use of digital tools and technology
+                        to improve teaching and learning.
+                    </p>
+                </div>
 
-                    <article class="skill-card reveal">
-                        <div class="skill-icon">
-                            <i data-lucide="monitor-smartphone"></i>
-                        </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📝</div>
+                    <h3>Academic Research</h3>
+                    <p>
+                        Preparing academic documents, research materials
+                        and educational presentations.
+                    </p>
+                </div>
 
-                        <h3>Web Development</h3>
+                <div class="skill-card">
+                    <div class="skill-icon">🖥️</div>
+                    <h3>Computer Applications</h3>
+                    <p>
+                        Using computer applications for documentation,
+                        presentations and productivity.
+                    </p>
+                </div>
 
-                        <p>
-                            Building responsive web pages and learning
-                            full-stack development concepts.
-                        </p>
-
-                        <div class="chips">
-                            <span>HTML</span>
-                            <span>CSS</span>
-                            <span>JavaScript</span>
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                        </div>
-                    </article>
-
-
-                    <article class="skill-card reveal">
-                        <div class="skill-icon">
-                            <i data-lucide="graduation-cap"></i>
-                        </div>
-
-                        <h3>Educational Technology</h3>
-
-                        <p>
-                            Exploring how technology supports teaching,
-                            learning and assessment.
-                        </p>
-
-                        <div class="chips">
-                            <span>Digital Learning</span>
-                            <span>LMS</span>
-                            <span>ICT in Education</span>
-                        </div>
-                    </article>
-
-
-                    <article class="skill-card reveal">
-                        <div class="skill-icon">
-                            <i data-lucide="palette"></i>
-                        </div>
-
-                        <h3>Graphic Design</h3>
-
-                        <p>
-                            Creating visual communication pieces and
-                            promotional poster concepts.
-                        </p>
-
-                        <div class="chips">
-                            <span>Poster Design</span>
-                            <span>Layout</span>
-                            <span>Visual Content</span>
-                        </div>
-                    </article>
-
-
-                    <article class="skill-card reveal">
-                        <div class="skill-icon">
-                            <i data-lucide="file-spreadsheet"></i>
-                        </div>
-
-                        <h3>Digital Productivity</h3>
-
-                        <p>
-                            Preparing clear documents, presentations
-                            and organised information.
-                        </p>
-
-                        <div class="chips">
-                            <span>MS Word</span>
-                            <span>PowerPoint</span>
-                            <span>Excel</span>
-                        </div>
-                    </article>
-
-
-                    <article class="skill-card reveal">
-                        <div class="skill-icon">
-                            <i data-lucide="network"></i>
-                        </div>
-
-                        <h3>IT Foundations</h3>
-
-                        <p>
-                            Developing practical knowledge of computer
-                            systems and networking.
-                        </p>
-
-                        <div class="chips">
-                            <span>Computer Basics</span>
-                            <span>Networking</span>
-                            <span>Linux — Learning</span>
-                        </div>
-                    </article>
-
-
-                    <article class="skill-card reveal">
-                        <div class="skill-icon">
-                            <i data-lucide="brain-circuit"></i>
-                        </div>
-
-                        <h3>Problem Solving</h3>
-
-                        <p>
-                            Breaking down challenges, researching options
-                            and testing practical solutions.
-                        </p>
-
-                        <div class="chips">
-                            <span>Research</span>
-                            <span>Critical Thinking</span>
-                            <span>Collaboration</span>
-                        </div>
-                    </article>
-
+                <div class="skill-card">
+                    <div class="skill-icon">🚀</div>
+                    <h3>Digital Innovation</h3>
+                    <p>
+                        Exploring new technologies and creative ways
+                        to solve everyday problems.
+                    </p>
                 </div>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- PROJECTS SECTION -->
-        <section class="section container" id="projects">
+    <!-- PROJECTS SECTION -->
+    <section class="section projects" id="projects">
 
-            <div class="section-heading reveal">
-                <p class="eyebrow">03 / SELECTED WORK</p>
+        <div class="container">
 
-                <h2>
-                    Things I've <span class="gradient-text">worked on.</span>
-                </h2>
-
-                <p class="section-intro">
-                    A selection of academic, technical and creative work.
-                    Replace these sample cards with your actual projects.
-                </p>
+            <div class="section-heading">
+                <p class="eyebrow">MY RECENT WORK</p>
+                <h2>Featured <span>Projects</span></h2>
+                <p>A selection of areas and projects that reflect my interests.</p>
             </div>
 
+            <div class="projects-grid">
 
-            <div class="project-grid">
-
-                <article class="project-card project-featured reveal">
-
-                    <div class="project-visual visual-blue">
-
-                        <div class="browser-bar">
-                            <b></b><b></b><b></b>
-                            <span>project-dashboard</span>
-                        </div>
-
-                        <div class="dashboard-mock">
-                            <div class="mock-side"></div>
-
-                            <div class="mock-content">
-                                <div class="mock-line wide"></div>
-                                <div class="mock-line"></div>
-
-                                <div class="mock-panels">
-                                    <i></i><i></i><i></i>
-                                </div>
-
-                                <div class="mock-line wide"></div>
-                            </div>
-                        </div>
-
-                        <span class="visual-label">WEB APPLICATION CONCEPT</span>
-
+                <div class="project-card">
+                    <div class="project-image project-one">
+                        <span>01</span>
                     </div>
-
 
                     <div class="project-info">
-
-                        <div class="project-meta">
-                            <span>WEB DEVELOPMENT</span>
-                            <span>01</span>
-                        </div>
-
-                        <h3>Smart Project Supervision System</h3>
-
+                        <p class="project-category">WEB DEVELOPMENT</p>
+                        <h3>Personal Portfolio Website</h3>
                         <p>
-                            A proposed web-based platform to support
-                            project allocation, progress tracking and
-                            evaluation using intelligent matching and
-                            reporting concepts.
+                            A responsive personal website designed to showcase
+                            professional information, skills and projects.
                         </p>
-
-                        <div class="project-tags">
-                            <span>PHP</span>
-                            <span>MySQL</span>
-                            <span>Machine Learning Concepts</span>
-                        </div>
-
-                        <a href="mailto:your.email@example.com?subject=Smart%20Project%20Supervision%20System" class="text-link">
-                            Ask about this project
-                            <i data-lucide="arrow-up-right"></i>
-                        </a>
-
+                        <span class="project-tag">HTML • CSS • JavaScript</span>
                     </div>
+                </div>
 
-                </article>
 
-
-                <article class="project-card reveal">
-
-                    <div class="project-visual visual-violet">
-
-                        <div class="poster-mock">
-                            <span>DESIGN</span>
-
-                            <strong>
-                                MAKE<br>
-                                IT<br>
-                                MATTER.
-                            </strong>
-
-                            <small>VISUAL COMMUNICATION / 2026</small>
-                        </div>
-
-                        <span class="visual-label">CREATIVE DESIGN</span>
-
+                <div class="project-card">
+                    <div class="project-image project-two">
+                        <span>02</span>
                     </div>
-
 
                     <div class="project-info">
-
-                        <div class="project-meta">
-                            <span>GRAPHIC DESIGN</span>
-                            <span>02</span>
-                        </div>
-
-                        <h3>Poster Design Practice</h3>
-
+                        <p class="project-category">GRAPHIC DESIGN</p>
+                        <h3>Creative Poster Design</h3>
                         <p>
-                            A collection of poster design exercises
-                            exploring layout, typography, colour
-                            and visual hierarchy.
+                            Visual design concepts developed to communicate
+                            information through creative layouts and graphics.
                         </p>
-
-                        <div class="project-tags">
-                            <span>Poster Design</span>
-                            <span>Typography</span>
-                            <span>Layout</span>
-                        </div>
-
-                        <a href="#contact" class="text-link">
-                            Request samples
-                            <i data-lucide="arrow-up-right"></i>
-                        </a>
-
+                        <span class="project-tag">Graphic Design</span>
                     </div>
+                </div>
 
-                </article>
 
-
-                <article class="project-card reveal">
-
-                    <div class="project-visual visual-green">
-
-                        <div class="learning-mock">
-                            <i data-lucide="book-open"></i>
-
-                            <strong>
-                                LEARN<br>
-                                ANYWHERE.
-                            </strong>
-
-                            <span>Digital learning concept</span>
-                        </div>
-
-                        <span class="visual-label">EDTECH CONCEPT</span>
-
+                <div class="project-card">
+                    <div class="project-image project-three">
+                        <span>03</span>
                     </div>
-
 
                     <div class="project-info">
-
-                        <div class="project-meta">
-                            <span>EDUCATIONAL TECHNOLOGY</span>
-                            <span>03</span>
-                        </div>
-
-                        <h3>Digital Learning Presentation</h3>
-
+                        <p class="project-category">EDUCATIONAL TECHNOLOGY</p>
+                        <h3>Smart Learning Solutions</h3>
                         <p>
-                            Academic presentation work on technology-supported
-                            learning, virtual classrooms and digital education.
+                            Exploring digital learning environments and
+                            technology-based approaches to education.
                         </p>
-
-                        <div class="project-tags">
-                            <span>EdTech</span>
-                            <span>ICT</span>
-                            <span>Presentation</span>
-                        </div>
-
-                        <a href="#contact" class="text-link">
-                            Request samples
-                            <i data-lucide="arrow-up-right"></i>
-                        </a>
-
+                        <span class="project-tag">Educational Technology</span>
                     </div>
-
-                </article>
+                </div>
 
             </div>
 
-            <p class="small-note">
-                Note: These are sample project descriptions and concept previews.
-                Add your actual project screenshots and links before publishing.
+            <p class="project-note">
+                Note: These are sample portfolio project descriptions.
+                Replace them with your actual completed projects and screenshots.
             </p>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- EDUCATION SECTION -->
-        <section class="section section-alt" id="education">
+    <!-- EDUCATION SECTION -->
+    <section class="section education">
 
-            <div class="container">
+        <div class="container">
 
-                <div class="section-heading reveal">
-                    <p class="eyebrow">04 / MY JOURNEY</p>
+            <div class="section-heading">
+                <p class="eyebrow">MY BACKGROUND</p>
+                <h2>Education & <span>Experience</span></h2>
+            </div>
 
-                    <h2>
-                        Education & <span class="gradient-text">development.</span>
-                    </h2>
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span>Academic Background</span>
+                        <h3>Al-Hikmah University</h3>
+                        <p>Educational Technology</p>
+                        <p>
+                            Developed an academic interest in educational
+                            media, digital learning and the integration
+                            of technology into education.
+                        </p>
+                    </div>
                 </div>
 
-
-                <div class="timeline">
-
-                    <div class="timeline-item reveal">
-
-                        <span class="timeline-dot"></span>
-
-                        <div class="timeline-date">
-                            ACADEMIC BACKGROUND
-                        </div>
-
-                        <div class="timeline-content">
-
-                            <h3>Al-Hikmah University, Ilorin</h3>
-
-                            <p class="timeline-subtitle">
-                                Educational Technology
-                            </p>
-
-                            <p>
-                                Studied the role of technology in teaching
-                                and learning, with an interest in digital
-                                learning environments and educational innovation.
-                            </p>
-
-                        </div>
-
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span>Technical Development</span>
+                        <h3>Web Development & Graphic Design</h3>
+                        <p>Practical Learning</p>
+                        <p>
+                            Developing practical skills in website creation,
+                            digital design and computer applications.
+                        </p>
                     </div>
-
-
-                    <div class="timeline-item reveal">
-
-                        <span class="timeline-dot"></span>
-
-                        <div class="timeline-date">
-                            PRACTICAL EXPERIENCE
-                        </div>
-
-                        <div class="timeline-content">
-
-                            <h3>Web Development & IT Practice</h3>
-
-                            <p class="timeline-subtitle">
-                                Personal and practical learning
-                            </p>
-
-                            <p>
-                                Worked with web technologies and productivity
-                                tools while developing practical skills in
-                                website creation, digital documentation
-                                and troubleshooting.
-                            </p>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="timeline-item reveal">
-
-                        <span class="timeline-dot"></span>
-
-                        <div class="timeline-date">
-                            CONTINUOUS LEARNING
-                        </div>
-
-                        <div class="timeline-content">
-
-                            <h3>Design, Technology & Cybersecurity</h3>
-
-                            <p class="timeline-subtitle">
-                                Independent learning
-                            </p>
-
-                            <p>
-                                Continuing to explore graphic design,
-                                networking, cybersecurity foundations
-                                and emerging digital tools.
-                            </p>
-
-                        </div>
-
-                    </div>
-
                 </div>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-        <!-- CONTACT SECTION -->
-        <section class="section container contact-section" id="contact">
+    <!-- CONTACT SECTION -->
+    <section class="section contact" id="contact">
 
-            <div class="contact-panel reveal">
+        <div class="container">
 
-                <div>
+            <div class="section-heading">
+                <p class="eyebrow">LET'S CONNECT</p>
+                <h2>Get In <span>Touch</span></h2>
+                <p>
+                    Have a project, an opportunity or an idea?
+                    Feel free to contact me.
+                </p>
+            </div>
 
-                    <p class="eyebrow">05 / GET IN TOUCH</p>
+            <div class="contact-grid">
 
-                    <h2>
-                        Have a project<br>
-                        in <span class="gradient-text">mind?</span>
-                    </h2>
+                <a href="mailto:techmafia392@gmail.com" class="contact-card">
+                    <div class="contact-icon">✉</div>
+                    <h3>Email Me</h3>
+                    <p>techmafia392@gmail.com</p>
+                    <span>Send an email →</span>
+                </a>
 
-                    <p class="contact-copy">
-                        I'm open to opportunities, collaborations and
-                        conversations about technology, education
-                        and creative work.
-                    </p>
+                <a href="https://wa.me/2348137245375"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="contact-card">
 
-                </div>
+                    <div class="contact-icon">☏</div>
+                    <h3>WhatsApp</h3>
+                    <p>+234 813 724 5375</p>
+                    <span>Chat with me →</span>
+                </a>
 
-
-                <div class="contact-details">
-
-                    <a href="mailto:your.email@example.com" class="contact-row">
-
-                        <span class="contact-icon">
-                            <i data-lucide="mail"></i>
-                        </span>
-
-                        <span>
-                            <small>EMAIL ME</small>
-                            <strong>techlordmafia001@gmail.com</strong>
-                        </span>
-
-                        <i data-lucide="arrow-up-right"></i>
-
-                    </a>
-
-
-                    <a href="https://wa.me/2348137245375"
-                       class="contact-row"
-                       target="_blank"
-                       rel="noopener">
-
-                        <span class="contact-icon">
-                            <i data-lucide="message-circle"></i>
-                        </span>
-
-                        <span>
-                            <small>WHATSAPP</small>
-                            <strong>Update with your number</strong>
-                        </span>
-
-                        <i data-lucide="arrow-up-right"></i>
-
-                    </a>
-
-
-                    <div class="contact-row">
-
-                        <span class="contact-icon">
-                            <i data-lucide="map-pin"></i>
-                        </span>
-
-                        <span>
-                            <small>LOCATION</small>
-                            <strong>Ilorin, Nigeria</strong>
-                        </span>
-
-                    </div>
-
+                <div class="contact-card">
+                    <div class="contact-icon">⌖</div>
+                    <h3>Location</h3>
+                    <p>Ilorin, Kwara State, Nigeria</p>
+                    <span>Based in Nigeria</span>
                 </div>
 
             </div>
 
-        </section>
+            <div class="contact-message">
+                <h3>Let's create something meaningful.</h3>
+                <p>
+                    I am always open to learning, collaboration and
+                    opportunities that encourage growth and innovation.
+                </p>
 
-    </main>
+                <a href="mailto:techmafia392@gmail.com"
+                   class="btn btn-primary">
+                    Send Me a Message
+                </a>
+            </div>
+
+        </div>
+
+    </section>
 
 
     <!-- FOOTER -->
     <footer class="footer">
 
-        <div class="container footer-inner">
+        <div class="container footer-content">
 
-            <a class="brand" href="#top">
-                <span class="brand-mark">A</span>
-                <span>Abdulmaleek<span class="brand-dot">.</span></span>
-            </a>
+            <a href="#home" class="logo">AA<span>.</span></a>
 
             <p>
-                Designed & built with purpose.
                 © <span id="year"></span> Abdulmaleek Ayomide.
+                All Rights Reserved.
             </p>
 
-            <a href="#top" class="back-top">BACK TO TOP ↑</a>
+            <a href="#home" class="back-to-top">Back to Top ↑</a>
 
         </div>
 
