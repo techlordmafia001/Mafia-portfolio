@@ -99,7 +99,7 @@ const roles = [
     "Creative Designer",
 
     "EdTech Enthusiast"
-    "Cyber Security Learner"
+    // "Cyber Security Learner"
 
 ];
 
