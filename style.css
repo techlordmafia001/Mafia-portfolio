@@ -110,7 +110,13 @@ span {
     cursor: pointer;
 }
 
-
+.profile-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: top;   /* keeps your face in frame */
+  border-radius: 50%;
+}
 /* HERO SECTION */
 
 .hero {
